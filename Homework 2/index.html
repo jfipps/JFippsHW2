@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="MainStyles.css">
+  <meta charset="utf-8">
+  <script type="text/javascript" src="View.js"></script>
+  <script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" src="Model.js"></script>
+  <script type="text/javascript" src="Controller.js"></script>
+  <title>Student Search</title>
+</head>
+
+<body>
+  <div class="App_Border">
+    <div class="Search_Area">
+      <div class="Form_Div">
+        <form>
+          <b>Last Name: </b><input type="text" id="search" />
+          <input type="button" value="Search" id="search_button" onclick="lastNameSearch();" />
+        </form>
+      </div>
+    </div>
+    <div class="Bottom_Div">
+      <div class="Left_Side">
+        <p id="students_found"><b>Students found: </b></p>
+        <ul id="found_list"></ul>
+      </div>
+      <div class="Right_Side">
+        <p id="Grades_Found"></p>
+        <div class="Grade_Table">
+          <ul id="Courses"></ul>
+          <ul id="GPA"></ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

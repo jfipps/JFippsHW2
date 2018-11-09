@@ -1,0 +1,81 @@
+.App_Border {
+  border: 2px solid blue;
+  width: inherit;
+  height: 700px;
+  display: block;
+}
+
+.Search_Area {
+  border-bottom: 2px solid black;
+  width: 100%;
+  height: 30%;
+  text-align: left;
+  display: inline-block;
+}
+
+.Form_Div {
+  display: inline-block;
+  margin-top: 50px;
+  margin-left: 500px;
+}
+
+.Search_Div {
+  height: 30px;
+  width: 90px;
+  display: inline-block;
+  float: right;
+  margin-top: 45px;
+  margin-right: 500px;
+  text-align: center;
+}
+
+.Bottom_Div {
+  display: inline-block;
+  width: 100%;
+  height: 70%;
+}
+
+.Left_Side {
+  width: 39%;
+  height: 84%;
+  border-right: 2px solid blue;
+  padding-left: 150px;
+  padding-top: 75px;
+  display: inline-block;
+  float: left;
+}
+
+.Right_Side {
+  display: inline-block;
+  width: 40%;
+  height: auto;
+  padding-left: 150px;
+  padding-top: 75px;
+  float: right;
+}
+
+#form_search {
+  height: auto;
+  width: auto;
+}
+
+#search_button {
+  background-color: #ffffff;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 50px;
+}
+
+ul {
+  list-style-type: none;
+  display: inline-block;
+}
+
+li {
+  border: 1px solid black;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-weight: bold;
+}
